@@ -1,4 +1,4 @@
-{ "city":
+{ "location":
   {
     "name": "toulouse",
     "lat" : 43.607378,
@@ -101,7 +101,8 @@
       "address": "18 Place de la Daurade",
       "type" : "coworking",
       "power": {"available": true},
-      "wifi": {"available": true}
+      "wifi": {"available": true},
+      "url": "http://www.tau.so/"
     },
     {
       "name": "Solaneko",
@@ -113,6 +114,27 @@
       "power": {"available": true, "comment": "at least 2"},
       "wifi": {"available": false},
       "url": "http://www.solaneko.fr/"
+    },
+    {
+      "name": "The Frog & Rosbif",
+      "lat": 43.604832,
+      "lon": 1.451072,
+      "openHours": "17h30 - 2h (semaine) - 13h30 - 3h (samedi) - 13h30 - 2h (dimanche)",
+      "address": "14 Rue de l'Industrie",
+      "type" : "pub",
+      "power": {"available": false},
+      "wifi": {"available": true},
+      "url": "http://www.frogpubs.com/pub-rosbif-toulouse.php"
+    },
+    {
+      "name": "Mediathèque José Cabanis",
+      "lat": 43.610632,
+      "lon": 1.455578,
+      "address": "1 Allée Jacques Chaban-Delmas",
+      "type" : "library",
+      "power": {"available": true},
+      "wifi": {"available": false},
+      "url":  "http://bibliotheque.toulouse.fr"
     }
   ]
 }
